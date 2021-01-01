@@ -1,0 +1,23 @@
+.header{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 100 vw;
+}
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+}
+.header-logo{
+    width: 33%;
+}
+.header-search{
+    width: 33%;
+}
+.single-header-link{
+    border: 4px black solid;
+}
