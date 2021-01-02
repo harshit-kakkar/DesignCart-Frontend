@@ -1,12 +1,13 @@
 import React from 'react';
 import './header.css';
 import Search from '../../assets/search-icon.png'
+import DesignCartLogo from '../../assets/designCart-logo.png'
 
 function Header() {
   return (
     <div className="header">
       <div className="header-logo">
-        DESIGN CART
+        <img className="designcart-img" src={DesignCartLogo}></img>
       </div>
       <div className="header-search">
         <input placeholder="Search for products" className="search-input"/>

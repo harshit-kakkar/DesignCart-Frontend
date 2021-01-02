@@ -1,5 +1,5 @@
 .header{
-    height: 10%;
+    height: 6em;
     display: flex;
     flex-direction: row;
     width: 100 vw;
@@ -13,6 +13,11 @@
 }
 .header-logo{
     width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.designcart-img{
+    height: 100%;
 }
 .header-search{
     width: 33%;
