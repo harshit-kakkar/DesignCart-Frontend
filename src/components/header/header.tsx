@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import Search from '../../assets/search-icon.png'
 
 function Header() {
   return (
@@ -8,7 +9,8 @@ function Header() {
         DESIGN CART
       </div>
       <div className="header-search">
-        SEARCH
+        <input placeholder="Search for products" className="search-input"/>
+        <button className="search-button"><img src={Search} alt="Search" className="search-img"></img></button>
       </div>
       <div className="header-links">
         <div className="single-header-link">
