@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header-logo">
-        <img className="designcart-img" src={DesignCartLogo}></img>
+        <img className="designcart-img" alt="DesignCart" src={DesignCartLogo}></img>
       </div>
       <div className="header-search">
         <input placeholder="Search for products" className="search-input"/>

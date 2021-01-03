@@ -1,0 +1,34 @@
+.landing-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.landing-page-choice{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    min-height: 30em;
+}
+.choice-create{
+    flex: 0 0 50%;
+    background-color: #ffe58f;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice-predesigned{
+    flex: 0 0 49.9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe58f;
+    color: rgb(0, 0, 0);
+    border-right: rgb(0, 0, 0) solid 1px;
+}
+.choice-create:hover, .choice-predesigned:hover{
+    background-color: black;
+    color: white;
+}
