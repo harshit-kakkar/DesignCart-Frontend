@@ -8,7 +8,8 @@ function LandingPage() {
         <div className="choice-predesigned">
           <p>Explore the pre designed products
           <br></br>
-          Shop now</p>
+          Shop now
+          </p>
         </div>
         <div className="choice-create">
           <p>Design your own T-shirt</p>
