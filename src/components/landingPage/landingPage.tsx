@@ -6,13 +6,22 @@ function LandingPage() {
     <div className="landing-container">
       <div className="landing-page-choice">
         <div className="choice-predesigned">
-          <p>Explore the pre designed products
-          <br></br>
-          Shop now
-          </p>
+          <div>
+            <p>Explore the pre designed products</p>
+          </div>
+          <div className="shop-now">
+            <p>
+              Shop now
+            </p>
+          </div>
         </div>
         <div className="choice-create">
-          <p>Design your own T-shirt</p>
+          <div>
+            <p>Design your own T-shirt</p>
+          </div>
+          <div className="try-now">
+            <p>Try now</p>
+          </div>
         </div>
       </div>
     </div>
