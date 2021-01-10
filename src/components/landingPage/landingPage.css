@@ -1,0 +1,65 @@
+.landing-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.landing-page-choice{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    min-height: 45em;
+    border: 2px solid black;
+}
+.choice-create{
+    flex: 0 0 50%;
+    background-color: #ffe58f;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.choice-predesigned{
+    flex: 0 0 49.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe58f;
+    color: rgb(0, 0, 0);
+    border-right: rgb(0, 0, 0) solid 1px;
+    font-size: 2em;
+}
+.choice-create:hover, .choice-predesigned:hover, .choice-create:hover .try-now{
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    background-color: black;
+    color: #ffe58f;
+}
+.try-now, .shop-now{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 2em;
+    border: black 2px solid;
+    background-color: black;
+    color: #ffe58f;
+    font-family:  'Helvetica Neue';
+}
+.choice-create:hover .try-now, .choice-predesigned:hover .shop-now{
+    border: solid #ffe58f 2px;
+    background-color: #ffe58f;
+    color: black;
+}
+.design-steps{
+    min-height: 20em;
+    display: flex;
+}
+.design-steps-heading{
+    font-size: 2em;
+    margin-left: 10%;
+    margin-top: 2em;
+    font-family: bookman;
+}

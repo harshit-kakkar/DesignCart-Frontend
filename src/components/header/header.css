@@ -1,0 +1,46 @@
+.header{
+    height: 6em;
+    display: flex;
+    flex-direction: row;
+    width: 100 vw;
+}
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+}
+.header-logo{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.designcart-img{
+    height: 100%;
+}
+.header-search{
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.search-input{
+    height: 25%;
+    width: 80%;
+    border-radius: 0.5em;    
+    font-size: 1em;
+    padding: 0.25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.search-button{
+    background-color: white;
+    height: 35%;
+    width: 7%;
+    border-radius: 0.5em;
+}
+.search-img{
+    height: 75%;
+    width: 80%;
+}
