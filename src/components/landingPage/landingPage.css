@@ -9,7 +9,8 @@
     height: 100%;
     flex-wrap: wrap;
     background-color: white;
-    min-height: 40em;
+    min-height: 45em;
+    border: 2px solid black;
 }
 .choice-create{
     flex: 0 0 50%;
@@ -51,4 +52,14 @@
     border: solid #ffe58f 2px;
     background-color: #ffe58f;
     color: black;
+}
+.design-steps{
+    min-height: 20em;
+    display: flex;
+}
+.design-steps-heading{
+    font-size: 2em;
+    margin-left: 10%;
+    margin-top: 2em;
+    font-family: bookman;
 }

@@ -24,6 +24,14 @@ function LandingPage() {
           </div>
         </div>
       </div>
+      <div className="design-steps-container">
+        <div className="design-steps-heading">
+          <p>Create your personalized T-shirt in just 3 steps</p>
+        </div>
+        <div>
+          heys
+        </div>
+      </div>
     </div>
   );
 }
