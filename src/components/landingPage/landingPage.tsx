@@ -1,5 +1,6 @@
 import React from 'react';
 import './landingPage.css';
+import yellow_tick from '../../assets/yellow_tick_1.png'
 
 function LandingPage() {
   return (
@@ -26,12 +27,24 @@ function LandingPage() {
       </div>
       <div className="design-steps-container">
         <div className="design-steps-heading">
-          <p>Create your personalized T-shirt in just 3 steps</p>
+          <p><b>Create your personalized T-shirt in just 3 steps</b></p>
         </div>
-        <div>
-          heys
+        <div className="design-steps">
+          <div className="design-step">
+            <img className="yellow-tick-img" alt="DesignCart" src={yellow_tick}></img>
+            <p className="design-step-text">Upload pic/logo</p>
+          </div>
+          <div className="design-step">
+            <img className="yellow-tick-img" alt="DesignCart" src={yellow_tick}></img>
+            <p className="design-step-text">Give some tagline</p>
+          </div>
+          <div className="design-step">
+            <img className="yellow-tick-img" alt="DesignCart" src={yellow_tick}></img>
+            <p className="design-step-text">Checkout</p>
+          </div>
         </div>
       </div>
+
     </div>
   );
 }
