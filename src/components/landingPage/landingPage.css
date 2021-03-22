@@ -1,5 +1,4 @@
 .landing-container{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -53,9 +52,6 @@
     background-color: #ffe58f;
     color: black;
 }
-.design-steps-container{
-    border: black 2px solid;
-}
 .design-steps{
     /* min-height: 20em; */
     display: flex;
@@ -82,7 +78,7 @@
 
 .featured-products-container{
     padding: 1em;
-    border: black solid 2px;
+    border-top: black solid 2px;
 }
 
 .featured-products-header{
@@ -113,6 +109,8 @@
     display: flex;
     justify-content: space-between;
     padding: 2em;
+    background-color: black;
+    color: #ffe58f;
 }
 
 .social-media-img{
