@@ -1,6 +1,7 @@
 import React from 'react';
 import './landingPage.css';
 import yellow_tick from '../../assets/yellow_tick_1.png'
+import social_img from '../../assets/social_fb_insta_twitter.jpg'
 
 interface ProductJson{
   id: number, 
@@ -63,6 +64,18 @@ function LandingPage() {
         {sampleProductJson.map((item, i) => <div className="featured-product"><img alt="Product" src="https://profile-images-hispace.s3.ap-south-1.amazonaws.com/2aa94cdf2bb341df8c089a79d3219f89.jpeg"></img><br></br> {item.name}</div>)}
       </div>
       </div>  
+
+
+      <div className="footer">
+        <div>
+          <span> Connect with us : </span>
+          <img className="social-media-img" alt="Social Media" src={social_img}></img>
+        </div>
+        <div>
+          <span>© 2021 designcart.com </span>
+        </div>
+      </div>
+
     </div>
   );
 }

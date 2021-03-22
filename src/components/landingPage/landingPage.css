@@ -108,3 +108,13 @@
 .featured-product > img {
     width: 75%;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.social-media-img{
+    max-height: 2em;
+}
