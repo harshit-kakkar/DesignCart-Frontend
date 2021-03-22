@@ -63,7 +63,6 @@
     padding: 3em;
 }
 .design-steps-heading{
-    font-size: 2em;
     margin-left: 10%;
     margin-top: 2em;
     font-family: bookman;
@@ -79,4 +78,33 @@
 }
 .design-step-text{
     margin: 2%;
+}
+
+.featured-products-container{
+    padding: 1em;
+    border: black solid 2px;
+}
+
+.featured-products-header{
+    margin-left: 10%;
+    padding: 1em;
+    font-family: bookman;
+}
+
+.featured-products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-product{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 26%;
+    width: 20%;
+    padding: 1em;
+}
+
+.featured-product > img {
+    width: 75%;
 }

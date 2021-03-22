@@ -2,6 +2,14 @@ import React from 'react';
 import './landingPage.css';
 import yellow_tick from '../../assets/yellow_tick_1.png'
 
+interface ProductJson{
+  id: number, 
+  name: string, 
+  price: string
+}
+let sampleProductJson: Array<ProductJson>  = [{ id : 1, name: "Minions T-shirt", price: "200"}, {id : 2, name: "Match T-shirt", price: "350"}, {id : 3, name: "Tagline T-shirt", price: "250"},
+{ id : 1, name: "Minions T-shirt", price: "200"}, {id : 2, name: "Match T-shirt", price: "350"}, {id : 3, name: "Tagline T-shirt", price: "250"}]
+
 function LandingPage() {
   return (
     <div className="landing-container">
@@ -27,7 +35,7 @@ function LandingPage() {
       </div>
       <div className="design-steps-container">
         <div className="design-steps-heading">
-          <p><b>Create your personalized T-shirt in just 3 steps</b></p>
+          <h1>Create your personalized T-shirt in just 3 steps</h1>
         </div>
         <div className="design-steps">
           <div className="design-step">
@@ -45,6 +53,16 @@ function LandingPage() {
         </div>
       </div>
 
+      <div className="featured-products-container">
+        <h1 className="featured-products-header">Featured Products</h1>
+      
+      <div className="featured-products">
+
+        {/* TODO: Create a separate component for product card and replace the below div with it. */}
+
+        {sampleProductJson.map((item, i) => <div className="featured-product"><img alt="Product" src="https://profile-images-hispace.s3.ap-south-1.amazonaws.com/2aa94cdf2bb341df8c089a79d3219f89.jpeg"></img><br></br> {item.name}</div>)}
+      </div>
+      </div>  
     </div>
   );
 }
