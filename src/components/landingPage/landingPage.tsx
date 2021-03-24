@@ -1,7 +1,7 @@
 import React from 'react';
 import './landingPage.css';
 import yellow_tick from '../../assets/yellow_tick_1.png'
-import social_img from '../../assets/social_fb_insta_twitter.jpg'
+import Footer from '../footer/footer'
 
 interface ProductJson{
   id: number, 
@@ -65,16 +65,8 @@ function LandingPage() {
       </div>
       </div>  
 
+      <Footer />
 
-      <div className="footer">
-        <div>
-          <span> Connect with us : </span>
-          <img className="social-media-img" alt="Social Media" src={social_img}></img>
-        </div>
-        <div>
-          <span>© 2021 designcart.com </span>
-        </div>
-      </div>
 
     </div>
   );
