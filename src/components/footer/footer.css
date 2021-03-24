@@ -1,0 +1,12 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: black;
+    color: #ffe58f;
+}
+
+.social-media-img{
+    max-height: 2em;
+}
